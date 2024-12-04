@@ -1,0 +1,69 @@
+website/
+├── app.py
+├── data/
+│   └── products.json
+├── templates/
+│   ├── index.html
+│   └── product.html
+└── static/
+    └── style.css
+/* General Styles */
+body {
+    background: linear-gradient(to right, #1f9d798f, #492305); /* Gradient background */
+    font-family: Jaro, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+h1 {
+    text-align: center;
+    color: #adadad; /* Deep blue */
+    padding: 20px;
+    background-color: #134760; /* Light blue-gray */
+}
+
+/* List Style */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* White background */
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+}
+
+/* Product Title */
+h2 {
+    color: #597083; /* Orange */
+}
+
+/* Product Description */
+p {
+    margin: 5px 0;
+}
+
+p:last-child {
+    font-weight: bold;
+    color: #5b7165; /* Green for price */
+}
+
+/* Hover Effect */
+li:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+body {
+    background-color: #b6b6b6; /* Light blue background */
+    color: #621b1b; /* Dark text for contrast */
+    font-family: 'Parkinsans', sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+}

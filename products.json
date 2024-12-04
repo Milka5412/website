@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Force 1 ’07 LX",
+        "description": "Metallic Gold/Sail",
+        "price": 119.99,
+        "image": "images/nike_airforce.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name": "Nike Air Jordan 1 Low SE",
+        "description": "Football Grey and Aluminum",
+        "price": 90.99,
+        "image": "images/nike_airjordan1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Nike Dunk Low",
+        "description": "Phantom/Sail/White/Red Sepia",
+        "price": 86.99,
+        "image": "images/nike_dunklow.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Puma RS-X",
+        "description": "Trendy sneakers with a bold design.",
+        "price": 110,
+        "image": "images/puma_rsx.jpg"
+     },
+    {
+        "id": 5,
+        "name": "Reebok Nano X",
+        "description": "Durable training shoes for all-day wear.",
+        "price": 95,
+        "image": "images/reebok_nanox.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Converse Chuck Taylor",
+        "description": "Iconic high-top sneakers for casual wear.",
+        "price": 60,
+        "image": "images/converse_chucktaylor.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Vans Old Skool",
+        "description": "Classic skate shoes with a timeless design.",
+        "price": 75,
+        "image": "images/vans_oldskool.jpg"
+    },
+    {
+        "id": 8,
+        "name": "New Balance 990v5",
+        "description": "Premium running shoes with exceptional comfort.",
+        "price": 180,
+        "image": "images/nb_990v5.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Asics Gel-Kayano 28",
+        "description": "Stability running shoes with advanced cushioning.",
+        "price": 160,
+        "image": "images/asics_gelkayano28.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Nike Pegasus 39",
+        "description": "Versatile running shoes for daily use.",
+        "price": 130,
+        "image": "images/nike_pegasus39.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Adidas Superstar",
+        "description": "Iconic sneakers with a clean design.",
+        "price": 85,
+        "image": "images/adidas_superstar.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Under Armour HOVR",
+        "description": "Responsive training shoes with great support.",
+        "price": 120,
+        "image": "images/ua_hovr.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Saucony Endorphin Speed",
+        "description": "High-performance running shoes for speed and comfort.",
+        "price": 160,
+        "image": "images/saucony_endorphin.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Brooks Ghost 15",
+        "description": "Smooth and reliable running shoes.",
+        "price": 150,
+        "image": "images/brooks_ghost15.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Hoka One One Clifton 8",
+        "description": "Lightweight and plush running shoes.",
+        "price": 140,
+        "image": "images/hoka_clifton8.jpg"
+    }
+    ]
+
+    

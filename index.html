@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milka's Shoe Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts for Jaro and Parkinsons -->
+    <link href="https://fonts.googleapis.com/css2?family=Jaro&family=Parkinsons&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Jaro', sans-serif;">Welcome to Milka's Shoe Store</h1>
+    </header>
+    <main>
+        <ul>
+            {% for product in products %}
+                <li>
+                    <h2>{{ product.name }}</h2>
+                    <p>{{ product.description }}</p>
+                    <p>Price: ${{ product.price }}</p>
+                    <a href="/product/{{ product.id }}">View Details</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+</body>
+</html>
+
